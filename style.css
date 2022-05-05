@@ -1,0 +1,93 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+}
+
+body {
+	background: linear-gradient(to right, #d3cce3, #e9e4f0);
+	color: #1B1A17;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.containerForm {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#title {
+    padding: 15px;
+}
+
+form {
+	height: 40vh;
+	width: 80vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	background: rgba(255, 255, 255, 0.75);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+	backdrop-filter: blur(8.3px);
+	-webkit-backdrop-filter: blur(8.3px);
+	border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+label {
+	padding: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+.caixaDeTexto {
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixaDeTexto label {
+    text-align: center;
+}
+
+.seletores {
+    display: flex;
+    flex-direction: column;
+}
+
+.seletores label {
+    text-align: center;
+}
+
+.entradaCifra {
+	padding: 5px;
+}
+
+#incrementoCifra {
+	font-size: 15px;
+	margin-top: 8px;
+}
+
+.radioButton {
+	display: flex;
+}
+
+#codificarOuDecodificar {
+	background: #383838;
+	color: white;
+	padding: 12px;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: .8em;
+}
