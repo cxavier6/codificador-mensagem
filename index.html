@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <title>Passinho do romano</title>
+</head>
+<body>
+
+<div class="containerForm">
+    <form action="">
+
+        <label for="mensagem">Entrada da mensagem</label>
+        <textarea name="" id="mensagem" cols="40" rows="8"></textarea>
+
+
+        <label for="cifra">Entrada da cifra</label>
+        <select name="cifra" class="entradaCifra" onclick="selecao()">
+            <option value="">--Escolha uma opção de codificação--</option>
+            <option id="cifraDeCesar" value="cifraDeCesar">Cifra de Cesar</option>
+            <option id="base64" value="base64">Base 64</option>
+        </select>
+        <div id="incrementoCifra">
+            <label for="incremento">Incremento:</label>
+            <input id="incremento" type="number">
+        </div>
+
+        <div class="radioButton">
+            <input id="btnCodificar" type="radio" name="escolha" value="codificar">
+            <label for="codificar">Codificar</label>
+
+            <input id="btnDecodificar" type="radio" name="escolha" value="decodificar">
+            <label for="decodificar">Decodificar</label>
+        </div>
+
+        <button id="codificarOuDecodificar">>></button>
+
+         <label for="mensagem">Saída da mensagem</label>
+        <textarea id="saidaMensagem" cols="40" rows="8"></textarea>
+
+    </form>
+</div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
