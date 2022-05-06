@@ -91,3 +91,22 @@ textarea {
 	font-weight: 500;
 	font-size: .8em;
 }
+
+/* responsividade para dispositivos móveis*/
+@media (max-width: 800px) {
+	.containerForm {
+		display: flex;
+		margin-top: 10%;
+	}
+	
+	form {
+		display: flex;
+		flex-direction: column;
+		width: 90vw;
+		height: 100vh;
+	}
+
+	.caixaDeTexto {
+		padding: 2%;
+	}
+}
