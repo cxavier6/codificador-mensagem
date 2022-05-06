@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <title>Passinho do romano</title>
+    <title>CODIFY</title>
 </head>
 <body>
+<header>
+    <div class="header">
+        <a id="header-title">CODIFY</a>
+    </div>
+
+    <nav class="container">
+        <a id="sobre" href="#como-funciona">Como Funciona?</a>
+    </nav>
+</header> 
 
 <div class="containerForm">
 
@@ -51,6 +60,27 @@
 
     </form>
 </div>
+
+<section id="como-funciona">
+    <div class="sobre-cifra">
+       <div class="texto">
+          <h3>Cifra de César</h3>
+          <p>A Cifra de César é um dos métodos conhecidos mais antigos de criptografia. É muito simples - é apenas substituição no alfabeto. A transformação é denominada ROTN, onde N é o valor do incremento e ROT é de "ROTAÇÃO" pois trata-se de uma substituição cíclica.
+            Por exemplo, ROT2, ou incremento igual a 2, significa que "a" se torna "c", "b" se torna "d" e no fim "y" se torna "a" e "z" se torna "b". O numero de transformações possíveis depende do comprimento do alfabeto que é de 25.</p>
+       </div>
+    </div>
+
+     <div class="sobre-cifra">
+        <div class="texto">
+              <h3>Base 64</h3>
+              <p>A codificação Base64 divide os dados binários em segmentos de 6 bits (correspondendo a 2 ^ 6 = 64 caracteres) de 3 bytes completos e os representa como caracteres imprimíveis no padrão ASCII.
+                    Os 64 caracteres (daí o nome Base64) são 10 dígitos, 26 caracteres minúsculos, 26 caracteres maiúsculos, bem como o sinal de mais (+) e a barra (/).
+                    Há também um 65º personagem conhecido como o sinal de igual (=). Este caractere é usado quando o último segmento de dados binários não contém 6 bits completos.</p>
+        </div>
+     </div>
+</section>
+
+
 
     <script src="./index.js"></script>
 
